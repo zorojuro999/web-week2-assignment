@@ -54,7 +54,7 @@
 
 @media screen  and (max-width:600px){
   .navbar{
-    margin: 50px 30px;
+    margin: 50px 10px;
     width: 100%;
   }
   .navlist {
@@ -71,7 +71,7 @@
   }
   .menu-icon {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 58px;
     right: 45px;
     color: black;
@@ -195,4 +195,214 @@
   border: 0;
   border-radius: 10px;
   margin-top: 30px;
+}
+@media screen and (max-width:600px) {
+  .s2{
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* s3 related styles */
+
+.s3{
+  width: 1280px;
+  height: 600px;
+  margin: 130px auto;
+}
+  
+.s3 h3{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800; 
+}
+.s3 p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+/* row 1 related styles */
+.row-1{
+  display: flex;
+  gap: 24px;
+ 
+}
+.maldives > img {
+  width: 628px;
+  height: 300px;
+  display: block;
+}
+.maldives{
+  position: relative;
+  width: 100%;
+}
+.overlay1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+.indonesia > img {
+  width: 628px;
+  height: 300px;
+}
+.indonesia{
+  position: relative;
+  width: 100%;
+}
+.overlay2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* row 2 related styles */
+
+.row-2{
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+.srilanka > img {
+  width: 410px;
+  height: 300px;
+  display: block;
+}
+.srilanka{
+  position: relative;
+  width: 100%;
+}
+.overlay3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.north-america > img {
+  width: 546px;
+  height: 300px;
+  display: block;
+}
+.north-america{
+  position: relative;
+  width: 100%;
+}
+.overlay4{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.kashmir > img {
+  width: 273px;
+  height: 300px;
+  display: block;
+}
+.kashmir{
+  position: relative;
+  width: 100%;
+}
+.overlay5{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* row 3 related styles */
+
+.row-3{
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+.bangladesh > img{
+  width: 502px;
+  height: 300px;
+  display: block;
+}
+.bangladesh{
+  position: relative;
+  width: 100%;
+}
+.overlay6{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+.bandarban > img{
+  width: 753px;
+  height: 300px;
+  display: block;
+}
+.bandarban{
+  position: relative;
+  width: 100%;
+}
+.overlay7{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+@media screen and (max-width:600px) {
+  .s3{
+    margin-top: 650px;
+    width: 100%;
+  }
+  .row-1{
+    flex-direction: column;
+  }
+  .row-2{
+    flex-direction: column;
+  }
+  .row-3{
+    flex-direction: column;
+  }
+  .bandarban > img, .bangladesh > img, .kashmir > img, .indonesia > img, .srilanka > img, .north-america > img, .maldives > img{
+    width: 546px;
+  }
+  .bandarban, .bangladesh, .kashmir, .indonesia, .srilanka, .north-america, .maldives{
+    width: 100%;
+  }
 }
