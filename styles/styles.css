@@ -514,6 +514,93 @@
 
 /* s5 related styles */
 
+.s5{
+  width: 1280px;
+  margin: 130px auto;
+}
+.s5 > h3{
+  text-align: center;
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.s5 > p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.s5-txt{
+  background-image: url(../Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  border-radius: 20px;
+  align-content: center;
+  margin-bottom: 50px;
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.816);
+  width: 579px;
+  height: 389px;
+  border-radius: 20px;
+  transform: translate(620px, 125px);
+}
+.card>ul{
+  display: flex;
+  gap: 24px;
+}
+.card li {
+
+  list-style: none;
+  padding-top: 40px;
+}
+.card h5{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 38px;
+}
+.card p{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 38px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.card h6{
+  color: #FF5400;
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 38px;
+  padding-top: 20px;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.card button{
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  width: 150px;
+  height: 52px;
+  border-radius: 10px;
+  background: #FF5400;
+  border: 0;
+  margin-left: 38px;
+  margin-top: 15px;
+
+}
+
+.card0{
+  transform: translate(80px,125px);
+}
+
 /* s6 related styles */
 
 
@@ -522,8 +609,8 @@
 .s7{
   width: 1280px;
   height: 480px;
-  margin: 130px auto;
-  margin-top: 350px;
+  margin: 30px auto;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   gap: 24px;
