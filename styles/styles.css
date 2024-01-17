@@ -150,3 +150,49 @@
     padding-top: 50px;
   }
 }
+
+/* s2 related styles */
+
+.s2{
+  width: 1280px;
+  height: 600px;
+  margin: 130px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s2-texts{
+  text-align: left;
+}
+.s2-texts h3{
+  color: #131318;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 0;
+  margin-top: 0;
+}
+.s2-texts p{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.s2-texts li{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.s2-texts button{
+  width: 180px;
+  height: 50px;
+  color: #FFF;
+  background: #FF5400;
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 30px;
+}
