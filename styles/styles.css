@@ -84,7 +84,7 @@
 
 .s1{
 
-  background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);  
+  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);  
   background-size: cover;
   background-repeat: no-repeat;
   width: 1280px;
@@ -578,7 +578,7 @@ margin-bottom: 32px;
 
 
 .s7-tag{
-  background-image: url(/Images/Rectangle\ 8\ \(1\).png);
+  background-image: url(../Images/Rectangle\ 8\ \(1\).png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 753px;
