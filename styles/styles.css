@@ -601,6 +601,23 @@
   transform: translate(80px,125px);
 }
 
+@media screen and (max-width:600px) {
+  .s5{
+    width:202px;
+    height: 100%;
+    margin: 600px 30px;
+  }
+  .s5-txt{
+    width: 556px;
+    height: 550px;
+  }
+  .card{transform: translate(-30px, 30px);
+  }
+  .card0{
+    transform: translate(-30px,75px);
+  }
+}
+
 /* s6 related styles */
 
 
